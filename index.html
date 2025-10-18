@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <article class="profile-card" data-testid = "test-profile-card">  
+
+        <figure class="user-avatar" data-testid="test-user-avatar">
+            <img  src="/images/portfolio.PNG" alt="Profile-Picture">
+        </figure>
+
+        <h2 data-testid="test-user-name">Samuel Godwin</h2>
+        <p class="user-bio" >Frontend Developer|Web3 Enthusiast  </p>
+
+    <section class="user-hobbies" >
+        <ul data-testid="test-user-hobbies">
+            <h4>Hobbies</h4>
+            <li> Reading</li>
+            <li>Coding</li>
+            <li>Playing Chess</li>
+        </ul>
+        <ul data-testid="test-user-dislikes">
+            <h4>Dislikes</h4>
+            <li>Lies</li>
+            <li>Loud Environment</li>
+        </ul>
+    </section>
+    <section class="time">
+        <p id="user-time" data-testid="test-user-time">Milliseconds</p>
+    </section>
+     <ul class="user-social" data-testid="test-user-social-links">
+        <li> <a href="https://web.facebook.com/profile.php?id=100087513909720" target="_blank" class="fa fa-facebook" data-testid="test-user-social-facebook"></a> </li>
+        <li> <a href="https://x.com/smart__sam" target="_blank" class="fa fa-twitter" data-testid="test-user-social-twitter"></a> </li>
+        <li> <a href="https://x.com/smart__sam" target="_blank" class="fa fa-github" data-testid="test-user-social-github"></a> </li>
+    </ul>
+    </article>
+    <script src="main.js"></script>
+</body>
+</html>
