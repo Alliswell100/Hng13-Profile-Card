@@ -1,0 +1,21 @@
+.about-me{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    padding:20px;
+    line-height: 30px;
+    background-color: rgba(248, 103, 103, 0.39);
+    margin-top:50px;
+    border-radius: 20px;
+    margin-bottom:30px;
+    color:rgb(83, 53, 53);
+    
+}
+.about-me section{
+    margin: 20px 40px;
+}
+.about-me li{
+    list-style: circle;
+}
