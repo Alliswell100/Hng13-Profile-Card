@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     padding:0;
     margin:0;
@@ -104,4 +105,85 @@ h4{
 }
 .fa-facebook, .fa-twitter, .fa-github{
     color:white;
+=======
+*{
+    padding:0;
+    margin:0;
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration:none ;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.profile-card{
+    width:400px;
+    background-color: rgba(248, 103, 103, 0.39);
+    border-radius: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+}
+.profile-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+
+.user-avatar img{
+    width:140px;
+    height:140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid rgb(134, 63, 63);
+    margin-bottom: 10px;
+    margin-top: 60px;
+}
+h2{
+    font-size:20px;
+    color:rgb(134, 63, 63);
+}
+.user-bio{
+    margin-bottom: 30px;
+    color:rgb(121, 79, 79);
+    font-size: 15px;
+}
+h4{
+    font-size: 15px;
+    color:rgb(121, 79, 79);
+}
+.user-hobbies{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 50px;
+    color:rgb(83, 53, 53);
+    text-align: start;
+    padding-left:30px;
+    padding-right:30px;
+
+}
+.user-hobbies li{
+    font-size: 15px;
+    padding-right:10px;
+    list-style: circle;
+
+}
+.user-social{
+    display:flex;
+    justify-content: space-around;
+    font-size: larger;
+    align-content: space-around;
+    background-color: rgb(121, 79, 79);;
+    border-radius: 20px;
+    width:60%;
+    margin:auto;
+    
+}
+.fa-facebook, .fa-twitter, .fa-github{
+    color:white;
+>>>>>>> main
 }
