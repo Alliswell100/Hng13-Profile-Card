@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header data-testid="">
+        <ul class="list-items">
+            <li> <a href="form.html" target="_blank" >Contact</a></li>
+            <li> <a href="aboutMe.html" target="_blank" >About</a></li>
+        </ul>
+    </header>
+    <section class="section">
+        <form id="form-test">
+            <label data-testid="test-contact-name">Full Name:</label><br>
+            <input type="text" id="name" required><br><br>
+
+            <label data-testid="test-contact-email">Email:</label><br>
+            <input type="email" id="email" required><br><br>
+
+            <label data-testid="test-contact-subject">Subject:</label><br>
+            <input type="text" id="subject" required><br><br>
+
+            <label data-testid="test-contact-message">Message:</label><br>
+            <textarea id="message" rows="4" required></textarea><br>
+
+            <button data-testid="test-contact-submit" type="submit">Submit</button>
+        </form>
+    </section>
+    <section>
+        <label data-testid="test-contact-error-email" id="errorMsg" class="message error"><p></p>❌ Please enter a valid email. </p></label>
+        <label data-testid="test-contact-success" id="successMsg" class="message success"><p></p>✅ Form submitted successfully! </p></label>
+    </section>
+    
+
+    <script src="form.js"></script>
+</body>
+</html>
