@@ -15,6 +15,7 @@ header{
     height:60px;
     background-color: rgba(248, 103, 103, 0.39);
     box-shadow: 3px 10px 20px grey;
+    max-width:100% ;
 }
 .list-items{
     display:flex;

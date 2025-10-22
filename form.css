@@ -2,7 +2,7 @@
     display:flex;
     justify-content: center;
     background-color:rgba(248, 103, 103, 0.39); 
-    width:400px;
+    width:30vw;
     margin:auto;
     box-shadow: 0 15px 30px rgba(0,0,0,0.3);
     margin-top: 50px;
@@ -10,17 +10,12 @@
     border-radius: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.section form{
-    width: 300px;
-    color:rgb(83, 53, 53);
 
-}
 .section input, textarea{
-    width: 300px;
+    width: 100%;
     height:50px;
     border-style: none;
     border-radius: 10px;
-    padding-left: 20px;
 }
 button{
     border-style: none;
